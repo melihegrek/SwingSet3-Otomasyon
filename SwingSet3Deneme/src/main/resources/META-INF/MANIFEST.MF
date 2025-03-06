@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Agent-Class: org.example.Agent
+Can-Retransform-Classes: true
+Can-Redefine-Classes: true

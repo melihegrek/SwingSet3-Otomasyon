@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.AppTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\melih\IdeaProjects\SwingSet3Deneme\target\test-classes;C:\Users\melih\IdeaProjects\SwingSet3Deneme\target\classes;C:\Users\melih\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\melih\.m2\repository\com\sparkjava\spark-core\2.9.4\spark-core-2.9.4.jar;C:\Users\melih\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-server\9.4.48.v20220622\jetty-server-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-http\9.4.48.v20220622\jetty-http-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-util\9.4.48.v20220622\jetty-util-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-io\9.4.48.v20220622\jetty-io-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.48.v20220622\jetty-webapp-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.48.v20220622\jetty-xml-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.48.v20220622\jetty-servlet-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-security\9.4.48.v20220622\jetty-security-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.48.v20220622\jetty-util-ajax-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.48.v20220622\websocket-server-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.48.v20220622\websocket-common-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.48.v20220622\websocket-client-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-client\9.4.48.v20220622\jetty-client-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.48.v20220622\websocket-servlet-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.48.v20220622\websocket-api-9.4.48.v20220622.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-21.0.3.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\melih\AppData\Local\Temp\surefire10896985544605055627\surefirebooter-20240614100454479_3.jar C:\Users\melih\AppData\Local\Temp\surefire10896985544605055627 2024-06-14T10-04-54_334-jvmRun1 surefire-20240614100454479_1tmp surefire_0-20240614100454479_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\melih\IdeaProjects\SwingSet3Deneme\target\test-classes;C:\Users\melih\IdeaProjects\SwingSet3Deneme\target\classes;C:\Users\melih\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\melih\.m2\repository\com\sparkjava\spark-core\2.9.4\spark-core-2.9.4.jar;C:\Users\melih\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-server\9.4.48.v20220622\jetty-server-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-http\9.4.48.v20220622\jetty-http-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-util\9.4.48.v20220622\jetty-util-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-io\9.4.48.v20220622\jetty-io-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.48.v20220622\jetty-webapp-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.48.v20220622\jetty-xml-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.48.v20220622\jetty-servlet-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-security\9.4.48.v20220622\jetty-security-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.48.v20220622\jetty-util-ajax-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.48.v20220622\websocket-server-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.48.v20220622\websocket-common-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.48.v20220622\websocket-client-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\jetty-client\9.4.48.v20220622\jetty-client-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.48.v20220622\websocket-servlet-9.4.48.v20220622.jar;C:\Users\melih\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.48.v20220622\websocket-api-9.4.48.v20220622.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\melih"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-21.0.3.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\melih\IdeaProjects\SwingSet3Deneme"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\melih\AppData\Local\Temp\surefire10896985544605055627\surefirebooter-20240614100454479_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.3+9-LTS"/>
+    <property name="user.name" value="melih"/>
+    <property name="stdout.encoding" value="Cp1254"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-9388422"/>
+    <property name="localRepository" value="C:\Users\melih\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\melih\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2024.1.2"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="C:\Users\melih\IdeaProjects\SwingSet3Deneme"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-21.0.3.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-8.0.412.8-hotspot\bin;C:\Program Files\Microsoft\jdk-21.0.3.9-hotspot\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\melih\Downloads\apache-maven-3.9.7-bin\apache-maven-3.9.7;C:\Users\melih\AppData\Local\Microsoft\WindowsApps;C:\Users\melih\AppData\Roaming\npm;C:\Users\melih\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1254"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.3+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testApp" classname="org.example.AppTest" time="0.004"/>
+</testsuite>
